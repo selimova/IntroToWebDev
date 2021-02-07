@@ -8,22 +8,47 @@ Most recent revision: 24/01/2021
 <html>
   <head>
       <title> Adil Selimovic Profolio </title>
+      <link href="styles/main.css" rel="stylesheet" type="text/css" />
+      <style>
+       caption {
+         font-weight: bold;
+         font-size: 1.2em;
+         margin-bottom: 8px;
+       }
+       table, th, td {
+         border: 1px solid #0d1f2d;
+         border-collapse: collapse;
+         padding: 5px 10px;
+       }
+       table {
+         width: 90%;
+         margin: auto;
+       }
+       tr {
+        height: 30px;
+       }
+       th {
+         background-color: #546a7b;
+         color: #f2eded;
+       }
+       tr:nth-child(odd) {
+         background-color: #e4c3ad;
+       }
+      </style>
   </head>
 
 <body>
 <header>
 <h1> Portfolio for Adil Selimovic </h1>
 </header>
-<hr />
 <!-- We need to add links to projects.html, contact.html, and testimonials.html -->
 <nav>
-<hr />
  <p> <a href=""> Home </a></p>
  <p> <a href="project.html"> Project </a> </p>
  <p> <a href="contact.html"> Contact </a> </p>
  <p> <a href="testimonials.html"> Testimonials </a> </p>
+<div class="clear-float"></div>
 </nav>
-<hr />
 <section>
 <article id="about-me">
 <h2><em> About Me </em></h2>
@@ -35,10 +60,12 @@ Vivamus scelerisque varius augue, a consequat dui efficitur sodales. Maecenas se
 <p>
 Vivamus nec sollicitudin diam, at posuere augue. <strong> Nunc pulvinar imperdiet massa ut tincidunt</strong>. Pellentesque ac tincidunt metus, nec molestie magna.
 </p>
+<div class="clear-float"></div>
 </article>
 <article id="Past Experiences">
 <h2><em> Past Experiences </em></h2>
 <img src="images/circle.jpg" alt="Circle of life" width="250"/>
+<div class="right-content">
 <table>
 <caption> Employment history </caption>
 <tr>
@@ -62,10 +89,13 @@ Vivamus nec sollicitudin diam, at posuere augue. <strong> Nunc pulvinar imperdie
 <td> State University </td>
 </tr>
 </table>
+</div>
+<div class="clear-float"></div>
 </article>
 <article id="Hobbies">
 <h2><em> Hobbies </em></h2>
 <img src="images/mountain.jpg" alt="montainlol" width="250"/>
+<div class="right-content">
 <ul>
 <li> Author </li>
 <ol>
@@ -94,6 +124,8 @@ Vivamus nec sollicitudin diam, at posuere augue. <strong> Nunc pulvinar imperdie
 <li> Skiing </li>
 </ul>
 </ul>
+</div>
+<div class="clear-float"></div>
 </article>
 </section>
 <footer>
